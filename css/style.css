@@ -262,7 +262,9 @@ main .main-section .main-text h1 {
 .text-width {
     width: 300px;
 }
-.text-width .main-heading{
+.text-width .main-heading span,
+.text-width .main-heading h2,
+.text-width .main-heading p{
     text-align: start;
 }
 .about-us .container .card p {
