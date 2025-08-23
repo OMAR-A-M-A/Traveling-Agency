@@ -43,9 +43,6 @@ p {
     font-size: 30px;
 }
 
-.none {
-    text-align: start;
-}
 
 /* end componant */
 /* start global rules */
@@ -265,7 +262,9 @@ main .main-section .main-text h1 {
 .text-width {
     width: 300px;
 }
-
+.text-width .main-heading{
+    text-align: start;
+}
 .about-us .container .card p {
     padding-top: 10px;
 }
