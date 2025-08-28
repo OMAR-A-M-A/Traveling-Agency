@@ -48,14 +48,9 @@
         <!-- ?start-about-us -->
         <section class="about-us">
             <div class="container">
-                <div class="card">
-                    <img src="./img/ab1.jpg" alt="" />
-                </div>
-                <div class="card">
-                    <img src="./img/ab2.jpg" alt="" />
-                </div>
                 <div class="card text-width">
-                    <div class="main-heading ">
+                    <div class="front img1"></div>
+                    <div class="main-heading rotate">
                         <span>About Us</span>
                         <h2>some Words <br>About Us</h2>
                         <p>
@@ -66,8 +61,43 @@
                         </p>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="./img/ab3.jpg" alt="" />
+                <div class="card text-width">
+                    <div class="front img2"></div>
+                    <div class="main-heading rotate">
+                        <span>About Us</span>
+                        <h2>some Words <br>About Us</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quisquam commodi assumenda ex sit et nobis eligendi, sed, illum,
+                            dolores distinctio quo delectus suscipit aut laboriosam
+                            consequuntur minima eius qui quidem?
+                        </p>
+                    </div>
+                </div>
+                <div class="card1 text-width">
+                    <div class="main-heading">
+                        <span>About Us</span>
+                        <h2>some Words <br>About Us</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quisquam commodi assumenda ex sit et nobis eligendi, sed, illum,
+                            dolores distinctio quo delectus suscipit aut laboriosam
+                            consequuntur minima eius qui quidem?
+                        </p>
+                    </div>
+                </div>
+                <div class="card text-width">
+                    <div class="front img3"></div>
+                    <div class="main-heading rotate">
+                        <span>About Us</span>
+                        <h2>some Words <br>About Us</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quisquam commodi assumenda ex sit et nobis eligendi, sed, illum,
+                            dolores distinctio quo delectus suscipit aut laboriosam
+                            consequuntur minima eius qui quidem?
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -184,6 +214,7 @@
             </div>
         </section>
         <!-- ? end-special -->
+
         <!-- ? start-gallery -->
         <section class="gallery">
             <div class="main-heading">
@@ -191,19 +222,12 @@
                 <h2>Adventure Offer</h2>
             </div>
             <div class="container">
-                <div class="cards">
-                    <img src="./img/g4.jpg" alt="" />
-                    <img src="./img/g5.jpg" alt="" />
-                </div>
-
-                <img src="./img/g6.jpg" alt="" class="b-img" />
-
-                <img src="./img/ab4.jpg" alt="" class="b-img" />
-
-                <div class="cards">
-                    <img src="./img/g2.jpg" alt="" />
-                    <img src="./img/g3.jpg" alt="" />
-                </div>
+                <img src="./img/g4.jpg" alt="" class="img-1" />
+                <img src="./img/g5.jpg" alt="" class="img-2" />
+                <img src="./img/g6.jpg" alt="" class="img-3" />
+                <img src="./img/ab4.jpg" alt="" class="img-4" />
+                <img src="./img/g2.jpg" alt="" class="img-5" />
+                <img src="./img/g3.jpg" alt="" class="img-6" />
             </div>
         </section>
         <!-- ? end-gallery -->
@@ -340,19 +364,46 @@
             </div>
             <div class="email">
                 <form action="">
-                <input type="email" placeholder="Your Email"/>
-                <button type="submit">Subscribe</button>
+                    <input type="email" placeholder="Your Email" />
+                    <button type="submit">Subscribe</button>
                 </form>
             </div>
         </section>
         <!-- ? end-subscribe -->
+        <!-- ?start-contact -->
+        <section class="contact">
+            <div class="main-heading">
+                <span>Contact</span>
+                <h2>Get in Touch</h2>
+            </div>
+            <div class="container">
+                <div class="map"> <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.4769506737575!2d31.7142423595342!3d30.023171775038605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1457f5af0912f45b%3A0xf307396502ee8bd0!2sEUI%20main%20gate!5e0!3m2!1sar!2seg!4v1756404385123!5m2!1sar!2seg"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+                <form action="">
+                    <div class="name">
+                        <input type="text" placeholder="First Name" name="fname" />
+                        <input type="text" placeholder="Last Name" name="lname" />
+                    </div>
+                    <div class="per-info">
+                        <input type="tel" placeholder="Phone" name="phone" />
+                        <input type="email" placeholder="Email" name="email" />
+                    </div>
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+        <!-- ? end-contact -->
     </main>
     <!-- ? end-main -->
     <!-- ?start-footer -->
     <footer>
         <div class="text">
             <p><span>Address</span> : Melbournme St,South <br>
-            Birbane 4101 Austraila</p>
+                Birbane 4101 Austraila</p>
             <p><span>Phone</span> : +(000) 123 456 789</p>
             <p><span>Email</span> : info@example1.com </p>
         </div>
@@ -361,12 +412,12 @@
             <div class="icon"><i class="fa-brands fa-twitter"></i></div>
             <div class="icon"><i class="fa-solid fa-rss"></i></div>
         </div>
-            <a href="#"><i class="fa-solid fa-arrow-up arr"></i></a>
+        <a href="#"><i class="fa-solid fa-arrow-up arr"></i></a>
     </footer>
     <!--? end-footer  -->
     <!-- ? start-info -->
     <div class="info">
-        <p>Copyright © 2022 <span>Travel</span> All rights reserved</p>
+        <p>Copyright &copy; 2022 <span>Travel</span> All rights reserved</p>
     </div>
     <!-- ? end-info -->
 
